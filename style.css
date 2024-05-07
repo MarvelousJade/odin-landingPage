@@ -11,12 +11,36 @@ body {
 .header {
    display: flex;
    justify-content: space-around;
+   align-items: center;
+}
+
+.header,
+.entry,
+.footer {
+   background-color: #1F2937;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
 ul {
    display: flex;
    list-style-type: none;
    gap: 20px;
+}
+
+.mainText {
+   font-size: 48px;
+   font-weight: 800;
+   color: #F9FAF8;
+}
+
+ul,
+.secondaryText {
+   font-size: 18px;
+   color: #e5e7eb;
 }
 
 .entry {
@@ -26,7 +50,7 @@ ul {
 }
 
 .container1 {
-
+   padding: 20px;
 }
 
 img {
